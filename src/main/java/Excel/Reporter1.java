@@ -20,6 +20,7 @@ public class Reporter1 {
 		html.setAppendExisting(true);		
 		extent = new ExtentReports();
 		extent.attachReporter(html);
+		//git push command
 	}
 
 	// This method creates the test case level report in HTML
