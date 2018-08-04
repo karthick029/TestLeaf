@@ -28,6 +28,7 @@ public class Excel {
 	    		data[i-1][j] = cell.getStringCellValue();
 	    		 String stringCellValue = cell.getStringCellValue();
 	    		System.out.print(stringCellValue);
+	    		System.out.println();
 	    		
 	    	}
 	    }
